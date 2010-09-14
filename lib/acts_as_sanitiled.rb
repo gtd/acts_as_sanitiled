@@ -2,6 +2,7 @@ require 'rubygems'
 require 'sanitize'
 require 'RedCloth'
 require 'active_support'
+require 'instance_tag_monkey_patch'
 
 module ActsAsSanitiled #:nodoc: all
   mattr_accessor :default_redcloth_options
