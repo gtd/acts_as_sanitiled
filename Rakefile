@@ -11,11 +11,14 @@ begin
     gem.homepage = "http://github.com/dasil003/acts_as_sanitiled"
     gem.authors = ["Gabe da Silveira"]
 
-    gem.add_dependency('sanitize', '>= 1.1.0', '< 3.0.0')
-    gem.add_dependency('RedCloth', '>= 4.1.0')
+    gem.add_dependency('nokogiri', '~> 1.3.3')
+    gem.add_dependency('dasil003-sanitize', '>= 1.1.0', '<3.0.0')
+    gem.add_dependency('RedCloth', '~> 4.2')
 
-    gem.add_development_dependency "bacon"
-    gem.add_development_dependency "activesupport"
+    gem.add_development_dependency("bacon")
+    gem.add_development_dependency("activesupport", "~> 2.3")
+    gem.add_development_dependency("jeweler", "~> 1.4")
+    gem.add_development_dependency("rake")
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
