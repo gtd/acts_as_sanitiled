@@ -1,30 +1,26 @@
 PATH
   remote: .
   specs:
-    acts_as_sanitiled (1.1.2)
-      RedCloth (~> 4.2)
-      dasil003-sanitize (~> 1.1.0)
-      nokogiri (~> 1.3.3)
+    acts_as_sanitiled (1.1.3)
+      RedCloth (>= 4.1.0, < 4.2.6)
+      acts_as_sanitiled
+      sanitize (>= 1.1.0, < 3.0.0)
 
 GEM
   remote: http://rubygems.org/
   specs:
-    RedCloth (4.2.3)
-    activesupport (2.3.10)
+    RedCloth (4.2.5)
+    activesupport (2.3.11)
     bacon (1.1.0)
-    dasil003-sanitize (1.1.1)
-      nokogiri (~> 1.3.3)
-    gemcutter (0.6.1)
     git (1.2.5)
-    jeweler (1.4.0)
-      gemcutter (>= 0.1.0)
+    jeweler (1.5.2)
+      bundler (~> 1.0.0)
       git (>= 1.2.5)
-      rubyforge (>= 2.0.0)
-    json_pure (1.4.6)
-    nokogiri (1.3.3)
+      rake
+    nokogiri (1.4.4)
     rake (0.8.7)
-    rubyforge (2.0.4)
-      json_pure (>= 1.1.7)
+    sanitize (2.0.0)
+      nokogiri (~> 1.4.4)
 
 PLATFORMS
   ruby
