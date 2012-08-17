@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{acts_as_sanitiled}
+  s.name = "acts_as_sanitiled"
   s.version = "1.1.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Gabe da Silveira"]
-  s.date = %q{2011-07-03}
-  s.description = %q{A modernized version of Chris Wansthrath's venerable acts_as_textiled. It automatically textiles and then sanitizes columns to your specification.  Ryan Grove's excellent Sanitize gem with nokogiri provides the backend for speedy and robust filtering of your output in order to: restrict Textile to a subset of HTML, guarantee well-formedness, and of course prevent XSS.}
-  s.email = %q{gabe@websaviour.com}
+  s.date = "2012-08-17"
+  s.description = "A modernized version of Chris Wansthrath's venerable acts_as_textiled. It automatically textiles and then sanitizes columns to your specification.  Ryan Grove's excellent Sanitize gem with nokogiri provides the backend for speedy and robust filtering of your output in order to: restrict Textile to a subset of HTML, guarantee well-formedness, and of course prevent XSS."
+  s.email = "gabe@websaviour.com"
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
@@ -28,10 +28,10 @@ Gem::Specification.new do |s|
     "spec/sanitiled_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/dasil003/acts_as_sanitiled}
+  s.homepage = "http://github.com/gtd/acts_as_sanitiled"
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.7.2}
-  s.summary = %q{Automatically textiles and/or sanitizes ActiveRecord columns}
+  s.rubygems_version = "1.8.24"
+  s.summary = "Automatically textiles and/or sanitizes ActiveRecord columns"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

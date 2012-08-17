@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{Automatically textiles and/or sanitizes ActiveRecord columns}
     gem.description = %Q{A modernized version of Chris Wansthrath's venerable acts_as_textiled. It automatically textiles and then sanitizes columns to your specification.  Ryan Grove's excellent Sanitize gem with nokogiri provides the backend for speedy and robust filtering of your output in order to: restrict Textile to a subset of HTML, guarantee well-formedness, and of course prevent XSS.}
     gem.email = "gabe@websaviour.com"
-    gem.homepage = "http://github.com/dasil003/acts_as_sanitiled"
+    gem.homepage = "http://github.com/gtd/acts_as_sanitiled"
     gem.authors = ["Gabe da Silveira"]
 
     gem.add_dependency('sanitize', '>= 1.1.0', '< 3.0.0')
